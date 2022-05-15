@@ -1,0 +1,36 @@
+### Get Task
+
+GET http://localhost:3000/tasks
+
+###
+
+POST http://localhost:3000/task
+Content-Type: application/json
+
+{
+    "name":"task2",
+    "description":"descripcion2"
+}
+
+### get by id
+
+GET http://localhost:3000/task/Z7UBOmGwwn4aMDUtUiF76
+
+### delete task by id
+
+DELETE http://localhost:3000/task/bERh0O06xIdfHxl2czsbq
+
+### delete task by id
+
+PUT http://localhost:3000/task/Z7UBOmGwwn4aMDUtUiF76
+Content-Type: application/json
+
+{
+    "name":"task30",
+    "description":"descripcion30"
+}
+
+### task count
+
+GET http://localhost:3000/tasks-count
+

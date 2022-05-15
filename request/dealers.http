@@ -1,0 +1,38 @@
+### get all dealers
+
+GET http://localhost:3000/dealers
+
+### new Dealer
+
+POST http://localhost:3000/dealer
+Content-Type: application/json
+
+{
+    "name":"task4",
+    "addres":"addres4",
+    "year":"2022"
+}
+
+### Get dealer by id
+GET http://localhost:3000/dealer/NKbr3C_pGMSy5mEysUhET
+
+### delete dealer by id
+
+DELETE  http://localhost:3000/dealer/m4Tk6G6JbDeHWKWRPc52l
+
+### update dealer by id
+
+PUT  http://localhost:3000/dealer/NKbr3C_pGMSy5mEysUhET
+Content-Type: application/json
+
+{
+    "name":"task40",
+    "addres":"addres40",
+    "year":"2022"
+}
+
+
+### get count dealers
+GET http://localhost:3000/dealers-count
+
+
